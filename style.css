@@ -55,7 +55,6 @@ li{
 
 #pickup article{
     width: 32%;
-
 }
 
 #pickup .article-title{
@@ -92,7 +91,7 @@ li{
 
 main {
     width: 100%;
-    min-width: 600px;
+    min-width: 370px;
     max-width: 1000px;
     margin: auto;
 }
@@ -189,4 +188,55 @@ footer .flexbox-footer{
 
 .travel{
     text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .navi{
+        overflow-x: scroll;
+        height: 54px;
+    }
+
+    .header-ul{
+        margin: 0 auto;
+    }
+
+    #pickup{
+        flex-direction: column;
+        height: 930px;
+    }
+
+    #pickup article{
+        height: 32%;
+        width: 95%;
+    }
+
+    .column-container{
+        flex-direction: column;
+    }
+
+    .column-container main{
+        width: 370px;
+    }
+
+    .column-img{
+        width: 350px;
+    }
+
+    .column-img p{
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+
+    footer{
+        height: 1200px;
+        display: flex;
+    }
+
+    .flexbox-footer{
+        flex-direction: column;
+    }
+
+    .flexbox-footer section{
+        width: 350px;
+    }
 }
