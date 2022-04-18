@@ -164,14 +164,14 @@ footer .flexbox-footer{
 
 .footer-text li::before{
     position:absolute;
-	content:'';
-	top: 0.5em;
-	left: 0.2em;
-	height:0;
-	width:0;
-	border-style: solid;
-	border-width: 6px 0 6px 9px;
-	border-color: transparent transparent transparent #030618;
+	  content:'';
+	  top: 0.5em;
+	  left: 0.2em;
+	  height:0;
+	  width:0;
+	  border-style: solid;
+	  border-width: 6px 0 6px 9px;
+	  border-color: transparent transparent transparent #030618;
     margin-left: -25px;
 }
 
@@ -228,7 +228,7 @@ footer .flexbox-footer{
     }
 
     footer{
-        height: 1200px;
+        height: 1150px;
         display: flex;
     }
 
@@ -238,5 +238,9 @@ footer .flexbox-footer{
 
     .flexbox-footer section{
         width: 350px;
+    }
+
+    .travel{
+      height: 50px;
     }
 }
