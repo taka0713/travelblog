@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <h1><img src="./img/logo.svg"></h1>
     <nav>
       <ul class="header-ul">
@@ -31,67 +31,67 @@
           <img src="./img/pickup1.jpg">
           <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
           <div class="readmore">
-            <a>READ MORE</a>
+            <a href="#header">READ MORE</a>
           </div>
       </article>
       <article>
           <img src="./img/pickup2.jpg">
           <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
           <div class="readmore">
-              <a>READ MORE</a>
+              <a href="#header">READ MORE</a>
           </div>
       </article>
       <article>
           <img src="./img/pickup3.jpg">
           <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
           <div class="readmore">
-            <a>READ MORE</a>
+            <a href="#header">READ MORE</a>
           </div>
       </article>
   </div>
   <div class="column-container">
     <main>
-      <article>
+      <article class="column-img">
         <h2>タイトルテキストテキストテキストテキストテキスト</h2>
-        <ul>
+        <ul class="column-ul">
           <li>2020/01/01</li>
           <li>カテゴリ1</li>
         </ul>
         <img src="./img/main1.jpg">
         <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         <div class="readmore">
-          <a>READ MORE</a>
+          <a href="#header">READ MORE</a>
         </div>
       </article>
-      <article>
+      <article class="column-img">
         <h2>タイトルテキストテキストテキストテキストテキスト</h2>
-        <ul>
+        <ul class="column-ul">
           <li>2020/01/01</li>
           <li>カテゴリ1</li>
         </ul>
         <img src="./img/main2.jpg">
         <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         <div class="readmore">
-          <a>READ MORE</a>
+          <a href="#header">READ MORE</a>
         </div>
       </article>
-      <article>
+      <article class="column-img">
         <h2>タイトルテキストテキストテキストテキストテキスト</h2>
-        <ul>
+        <ul class="column-ul">
           <li>2020/01/01</li>
           <li>カテゴリ1</li>
         </ul>
         <img src="./img/main3.jpg">
         <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         <div class="readmore">
-          <a>READ MORE</a>
+          <a href="#header">READ MORE</a>
         </div>
       </article>
     </main>
     <aside>
       <div>
         <section>
-          <img src="./img/author.jpg">
+          <img src="./img/author.jpg"  class="author-gazou">
           <h3>Name Name</h3>
           <p>プロフィールテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </section>
@@ -112,7 +112,7 @@
         </section>
         <section>
           <h3>Archive</h3>
-          <ul>
+          <ul class="archive-list">
             <li>XXXX年XX月(XX)</li>
             <li>XXXX年XX月(XX)</li>
             <li>XXXX年XX月(XX)</li>
@@ -134,29 +134,31 @@
     </aside>
   </div>
   <footer>
-    <section>
-      <h3>About</h3>
-      <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-      <ul>
-        <li>プロフィール詳細</li>
-        <li>お仕事の依頼</li>
-        <li>お問い合わせ</li>
-      </ul>
-    </section>
-    <section>
-      <h3>Menu</h3>
-      <ul>
-        <li>NEW</li>
-        <li>CATEGORY</li>
-        <li>COLUMN</li>
-        <li>SERIES</li>
-        <li>Q&A</li>
-      </ul>
-    </section>
-    <section>
-      <h3>Twitter</h3>
-    </section>
-     <div>&#169;Travel&Blog</div>
+    <div class="flexbox-footer">
+      <section>
+        <h3>About</h3>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <ul class="footer-text">
+          <li><a href="#header">プロフィール詳細</a></li>
+          <li><a href="#header">お仕事の依頼</a></li>
+          <li><a href="#header">お問い合わせ</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Menu</h3>
+        <ul class="menu-ul">
+          <li><a href="#header">NEW</a></li>
+          <li><a href="#header">CATEGORY</a></li>
+          <li><a href="#header">COLUMN</a></li>
+          <li><a href="#header">SERIES</a></li>
+          <li><a href="#header">Q&A</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Twitter</h3>
+      </section>
+    </div>
+    <div class="travel">&#169;Travel&Blog</div>
   </footer>
 </body>
 </html>
