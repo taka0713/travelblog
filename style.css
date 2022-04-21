@@ -130,7 +130,6 @@ aside p{
 }
 
 footer{
-    height: 480px;
     padding: 15px;
     background-color: rgb(206, 203, 200);
 }
@@ -138,10 +137,6 @@ footer{
 footer .flexbox-footer{
     display: flex;
     justify-content: space-between;
-}
-
-.flexbox-footer{
-    height: 450px;
 }
 
 .flexbox-footer p{
@@ -225,11 +220,6 @@ footer .flexbox-footer{
     .column-img p{
         font-size: 13px;
         padding: 10px 30px;
-    }
-
-    footer{
-        height: 1150px;
-        display: flex;
     }
 
     .flexbox-footer{
